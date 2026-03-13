@@ -1,0 +1,68 @@
+ Model: Logistic Regression
+ Training Accuracy:  0.9831 (98.31%)
+ Testing Accuracy:   0.9748 (97.48%)
+  Accuracy Difference: 0.0083 (0.83%)
+ AUC Score:          0.9924
+
+ Classification Report (Test Data):
+              precision    recall  f1-score   support
+
+           0       0.99      0.96      0.97      2161
+           1       0.96      0.99      0.98      2161
+
+    accuracy                           0.97      4322
+   macro avg       0.98      0.97      0.97      4322
+weighted avg       0.98      0.97      0.97      4322
+
+======================================================================
+ Model: Naive Bayes
+ Training Accuracy:  0.9413 (94.13%)
+ Testing Accuracy:   0.9179 (91.79%)
+  Accuracy Difference: 0.0234 (2.34%)
+ AUC Score:          0.9797
+
+ Classification Report (Test Data):
+              precision    recall  f1-score   support
+
+           0       0.88      0.96      0.92      2161
+           1       0.96      0.87      0.91      2161
+
+    accuracy                           0.92      4322
+   macro avg       0.92      0.92      0.92      4322
+weighted avg       0.92      0.92      0.92      4322
+
+======================================================================
+ Model: Decision Tree
+ Training Accuracy:  0.8373 (83.73%)
+ Testing Accuracy:   0.8279 (82.79%)
+  Accuracy Difference: 0.0094 (0.94%)
+ AUC Score:          0.8439
+
+ Classification Report (Test Data):
+              precision    recall  f1-score   support
+
+           0       0.99      0.66      0.79      2161
+           1       0.75      0.99      0.85      2161
+
+    accuracy                           0.83      4322
+   macro avg       0.87      0.83      0.82      4322
+weighted avg       0.87      0.83      0.82      4322
+
+======================================================================
+ Model: Passive Aggressive
+ Training Accuracy:  0.9956 (99.56%)
+ Testing Accuracy:   0.9873 (98.73%)
+  Accuracy Difference: 0.0083 (0.83%)
+ AUC Score:          0.9924
+
+ Classification Report (Test Data):
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99      2161
+           1       0.98      0.99      0.99      2161
+
+    accuracy                           0.99      4322
+   macro avg       0.99      0.99      0.99      4322
+weighted avg       0.99      0.99      0.99      4322
+
+======================================================================
